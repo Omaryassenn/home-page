@@ -56,6 +56,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 128px;
 line-height: 155px;
+/* identical to box height */
 
 text-align: center;
   }
@@ -71,13 +72,14 @@ font-style: normal;
 font-weight: 400;
 font-size: 64px;
 line-height: 77px;
-text-align: right;
+text-align: center;
 
 color: #010101;
   }
   .dis{
     box-sizing: border-box;
 
+    /* Auto layout */
     
     display: flex;
     flex-direction: row;
@@ -103,10 +105,15 @@ font-style: normal;
 font-weight: 4300;
 font-size: 36px;
 line-height: 44px;
+/* identical to box height */
 
-text-align: center;
+text-align: right;
 
 color: #010101;
+
+
+/* Inside auto layout */
+
 flex: none;
 order: 0;
 flex-grow: 0;
